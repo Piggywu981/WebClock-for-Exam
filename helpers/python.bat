@@ -56,4 +56,16 @@ if exist "%python_save_path%" (
 )
 
 echo ^> Done.
+
+echo Downloading build requirements...
+:: Install PyQT5 in addition to the launcher requirements
+if "%USE_TSINGHUA%"=="1" (
+    echo Downloading launcher requirements...
+    "%python_extract_path%\python.exe" -m pip install --no-warn-script-location PyQT5 pyqt5-tools -i https://mirrors.aliyun.com/pypi/simple
+) else (
+    echo Downloading launcher requirements...
+    "%python_extract_path%\python.exe" -m pip install --no-warn-script-location PyQT5 pyqt5-tools
+)
+
+echo ^> Done.
 echo.
