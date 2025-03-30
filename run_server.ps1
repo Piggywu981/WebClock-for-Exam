@@ -25,5 +25,5 @@ Set-Location -Path $scriptDir
 # 启动 Python HTTP 服务器
 Write-Host "Server starting on port $PORT..."
 Start-Process -NoNewWindow "python" "-m http.server $PORT"
-Start-Process "http://localhost:$PORT/index.html"
+Start-Process "http://localhost:$PORT"
 Write-Host "Server started on port $PORT."

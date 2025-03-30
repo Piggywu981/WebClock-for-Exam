@@ -24,3 +24,5 @@ echo Requirements are met, starting the app...
 .\run_server.bat
 
 echo The ETS2LA launcher has closed.
+
+pause
