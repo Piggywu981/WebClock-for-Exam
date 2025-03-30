@@ -56,30 +56,4 @@ if exist "%python_save_path%" (
 )
 
 echo ^> Done.
-echo Copying tkinter...
-xcopy /E /Y "%tkinter_path%" "%python_extract_path%" >nul 2>&1
-echo ^> Done.
-
-echo Downloading build requirements...
-:: Install wheel, setuptools and poetry in addition to the launcher requirements
-if "%USE_TSINGHUA%"=="1" (
-    "%python_extract_path%\python.exe" -m pip install --no-warn-script-location wheel setuptools poetry -i https://mirrors.aliyun.com/pypi/simple
-
-    echo Downloading launcher requirements...
-    "%python_extract_path%\python.exe" -m pip install --no-warn-script-location psutil dearpygui GitPython pygetwindow -i https://mirrors.aliyun.com/pypi/simple
-
-    echo Installing DearPyGui-Markdown...
-    "%python_extract_path%\python.exe" -m pip install -e "%dpg_markdown%" -i https://mirrors.aliyun.com/pypi/simple
-    
-) else (
-    "%python_extract_path%\python.exe" -m pip install --no-warn-script-location wheel setuptools poetry
-
-    echo Downloading launcher requirements...
-    "%python_extract_path%\python.exe" -m pip install --no-warn-script-location psutil dearpygui GitPython pygetwindow requests
-
-    echo Installing DearPyGui-Markdown...
-    "%python_extract_path%\python.exe" -m pip install -e "%dpg_markdown%"
-)
-
-echo ^> Done.
 echo.

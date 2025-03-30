@@ -97,7 +97,7 @@ function highlight() {
 
 async function getjson() {
     try {
-        const response = await fetch('subjectlist.json');
+        const response = await fetch('config/subjectlist.json');
         const data = await response.json();
         const schedule = data.schedule;
 
