@@ -249,7 +249,7 @@ class JsonEditor(QMainWindow):
     def save_json(self):
         """保存修改后的 JSON 数据"""
         if self.data and "schedule" in self.data:
-            file_path, _ = QFileDialog.getSaveFileName(self, "保存 JSON 文件", "", "JSON 文件 (*.json)")
+            file_path, _ = QFileDialog.getSaveFileName(self, "保存 JSON 文件", "config/subjectlist", "JSON 文件 (*.json)")
             if file_path:
                 with open(file_path, "w", encoding="utf-8") as file:
                     json.dump(self.data, file, ensure_ascii=False, indent=4)
@@ -260,7 +260,7 @@ class JsonEditor(QMainWindow):
     def export_csv(self):
         """导出为 CSV 文件"""
         if self.data and "schedule" in self.data:
-            file_path, _ = QFileDialog.getSaveFileName(self, "保存 CSV 文件", "", "CSV 文件 (*.csv)")
+            file_path, _ = QFileDialog.getSaveFileName(self, "保存 CSV 文件", "config/subjectlist", "CSV 文件 (*.csv)")
             if file_path:
                 with open(file_path, "w", newline='', encoding='utf-8') as csvfile:
                     writer = csv.writer(csvfile)
