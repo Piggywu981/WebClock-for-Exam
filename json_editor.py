@@ -51,7 +51,7 @@ class JsonEditor(QMainWindow):
 
     def load_json(self):
         """加载 JSON 文件"""
-        file_path, _ = QFileDialog.getOpenFileName(self, "选择 JSON 文件", "", "JSON 文件 (*.json)")
+        file_path, _ = QFileDialog.getOpenFileName(self, "选择 JSON 文件", "config", "JSON 文件 (*.json)")
         if file_path:
             try:
                 with open(file_path, "r", encoding="utf-8") as file:
@@ -64,7 +64,7 @@ class JsonEditor(QMainWindow):
 
     def load_csv(self):
         """加载 CSV 文件并转换为 JSON 格式"""
-        file_path, _ = QFileDialog.getOpenFileName(self, "选择 CSV 文件", "", "CSV 文件 (*.csv)")
+        file_path, _ = QFileDialog.getOpenFileName(self, "选择 CSV 文件", "config", "CSV 文件 (*.csv)")
         if file_path:
             try:
                 self.data = {"schedule": []}

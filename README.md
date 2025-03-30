@@ -1,4 +1,4 @@
-# WebClock-for-Exam
+# WebClock v2.0.0 with pythonServer
 
 A WebClock based on HTML and JS, run on python
 
@@ -8,7 +8,12 @@ Run by a simple click on *start.bat*
 
 ***If you cannot access Github, then *start_tsinghua.bat* is for you***
 
-To configure schedule, change *subjectlist* in *script/index.js*
+---
+You **MUST** have at least 5GB memories to use this program.
+
+if you already have python3 installed then run ***"run_server.bat"*** instead
+
+To change schedule, edit file ***"config/subjectlist.json"***, or simply use the ***"json_editor.exe"***
 
 ---
 
