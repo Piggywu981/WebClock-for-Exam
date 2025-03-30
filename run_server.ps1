@@ -1,5 +1,5 @@
 # 设置默认端口号
-$PORT = 8000
+$PORT = 9000
 
 # 检查是否以管理员权限运行
 Write-Host "Checking for administrator privileges..."
@@ -25,5 +25,5 @@ Set-Location -Path $scriptDir
 # 启动 Python HTTP 服务器
 Write-Host "Server starting on port $PORT..."
 Start-Process -NoNewWindow "python" "-m http.server $PORT"
-Start-Process "http://localhost:$PORT"
+Start-Process "http://localhost:$PORT/index.html"
 Write-Host "Server started on port $PORT."
