@@ -2,6 +2,8 @@
 
 A WebClock based on HTML and JS, run on python
 
+**YOU MAY NEED MORE THAN 5GB MEMORY TO USE THIS PROGRAM**
+
 Run by a simple click on *start.bat*
 
 ***If you cannot access Github, then *start_tsinghua.bat* is for you***
