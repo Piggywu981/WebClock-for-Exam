@@ -1,0 +1,64 @@
+{
+    "schedule": [
+      {
+        "date": "2025/3/27",
+        "subject": [
+          {
+            "sub": "地理",
+            "starttime": "13:50",
+            "endtime": "15:20"
+          },
+          {
+            "sub": "英语",
+            "starttime": "15:50",
+            "endtime": "17:20"
+          }
+        ]
+      },
+      {
+        "date": "2025/3/28",
+        "subject": [
+          {
+            "sub": "生物",
+            "starttime": "08:00",
+            "endtime": "09:30"
+          },
+          {
+            "sub": "语文",
+            "starttime": "09:50",
+            "endtime": "12:20"
+          },
+          {
+            "sub": "历史",
+            "starttime": "13:50",
+            "endtime": "15:20"
+          },
+          {
+            "sub": "物理",
+            "starttime": "15:50",
+            "endtime": "17:20"
+          }
+        ]
+      },
+      {
+        "date": "2025/3/29",
+        "subject": [
+          {
+            "sub": "政治",
+            "starttime": "08:00",
+            "endtime": "09:30"
+          },
+          {
+            "sub": "数学",
+            "starttime": "09:50",
+            "endtime": "11:50"
+          },
+          {
+            "sub": "化学",
+            "starttime": "13:00",
+            "endtime": "14:30"
+          }
+        ]
+      }
+    ]
+  }

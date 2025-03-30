@@ -1,8 +1,7 @@
-*{
+* {
     margin: 0;
     font-size: 1vw;
 }
-
 
 img {
     position: fixed;
@@ -12,11 +11,11 @@ img {
     object-fit: cover;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.A{
+.A {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,7 +34,7 @@ img {
     margin-bottom: 6.666vh;
     border: none;
     border-radius: 30px;
-    background-color: rgba(200,200,200,0.6);
+    background-color: rgba(200, 200, 200, 0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.3);
     display: flex;
@@ -43,12 +42,12 @@ img {
     align-items: center;
 }
 
-.thetime{
+.thetime {
     font-size: 10vw;
     font-weight: bolder;
 }
 
-.attention{
+.attention {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -56,28 +55,27 @@ img {
     margin-bottom: 6.666vh;
     border: none;
     border-radius: 30px;
-    background-color: rgba(200,200,200,0.6);
+    background-color: rgba(200, 200, 200, 0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.attentiontext{
+.attentiontext {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.text{
+.text {
     font-size: 3vw;
     font-weight: bolder;
 }
 
-.B{
+.B {
     display: flex;
     justify-content: center;
     width: 30vw;
@@ -94,19 +92,19 @@ img {
     margin-top: 6.666vh;
     border: none;
     border-radius: 30px;
-    background-color: rgba(200,200,200,0.6);
+    background-color: rgba(200, 200, 200, 0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.3);
     padding-top: 3.333vh;
     padding-left: 10%;
 }
 
-.date{
+.date {
     font-size: 2vw;
     font-weight: bold;
 }
 
-.subject{
+.subject {
     position: relative;
     width: 86%;
     height: 5vh;
@@ -116,52 +114,51 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.subjectname{
+.subjectname {
     font-size: 1.25vw;
     font-weight: lighter;
     margin-right: 5%;
 }
 
-.subjecttime{
+.subjecttime {
     font-size: 1.25vw;
     font-weight: lighter;
     color: rgba(75, 75, 75, 1);
 }
 
-.subjectstate{
+.subjectstate {
     font-size: 1.25vw;
     font-weight: lighter;
     color: rgba(75, 75, 75, 1);
 }
 
-.now{
+.now {
     border: none;
     border-radius: 1vw;
-    background-color: rgba(255,255,0,0.6);
+    background-color: rgba(255, 255, 0, 0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.3);
 }
 
-.prepare{
+.prepare {
     border: none;
     border-radius: 1vw;
-    background-color: rgba(0,255,255,0.6);
+    background-color: rgba(0, 255, 255, 0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.3);
 }
 
-.last{
+.last {
     border: none;
     border-radius: 1vw;
-    background-color: rgba(255,0,0,0.6);
+    background-color: rgba(255, 0, 0, 0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.3);
 }
 
-.copyright{
+.copyright {
     position: fixed;
     z-index: 3;
     right: 3px;
